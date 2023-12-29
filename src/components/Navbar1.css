@@ -1,0 +1,16 @@
+img {
+    border-style: solid;
+    border-width: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header h1 {
+        font-size: 3rem;
+    }
+}
