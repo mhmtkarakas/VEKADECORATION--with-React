@@ -4,7 +4,7 @@ import "./Anasayfa.css";
 import { useState } from "react";
 import Hakimizda from "./../components/Hakimizda";
 import Markalar from "../components/Markalar";
-import Tanitim from "../components/Tanitim";
+import Galeri from './../components/Galeri';
 
 const Anasayfa = () => {
   const [index, setIndex] = useState(0);
@@ -79,7 +79,7 @@ const Anasayfa = () => {
       </Carousel>
       <Hakimizda />
       <Markalar />
-      <Tanitim />
+      <Galeri />
     </div>
   );
 };

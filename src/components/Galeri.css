@@ -1,0 +1,11 @@
+
+.tanitimresimleri img{
+width: 400px ;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 3px solid;
+
+}
+  
