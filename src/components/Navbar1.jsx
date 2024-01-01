@@ -4,7 +4,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './Navbar1.css';
-
 import { FcAbout } from "react-icons/fc";
 import { FaHome } from "react-icons/fa";
 import { MdContactPhone } from "react-icons/md";
@@ -12,8 +11,8 @@ import { Link } from 'react-router-dom';
 
 const Navbar1 = () => {
   return (
-    <div>
-        <Navbar expand="lg" className='fixed-top navbar-dark bg-dark   shadow'>
+    <div className='container'>
+        <Navbar expand="lg" className='fixed-top navbar-dark bg-dark  shadow'>
         <Container>
           <Navbar.Brand>
             <Link to="/" className=' navbar-brand text-light fw-semibold'>

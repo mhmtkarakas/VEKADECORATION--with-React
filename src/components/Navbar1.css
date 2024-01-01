@@ -1,3 +1,8 @@
+.container{
+    width: 100%;
+    z-index: 1000;
+}
+
 img {
     border-style: solid;
     border-width: 1px;

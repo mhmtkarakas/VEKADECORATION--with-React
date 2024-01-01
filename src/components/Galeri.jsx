@@ -5,11 +5,12 @@ import kutahyaimg1 from "../utils/img/kutahyaimg1.jpg";
 import kutahyaimg2 from "../utils/img/kutahyaimg2.jpg";
 import kutahyaimg3 from "../utils/img/kutahyaimg3.jpg";
 import creavitimg from "../utils/img/creavitimg.jpg";
-import evaimg1 from "../utils/img/evaimg1.jpg";
+import rocaimg from "../utils/img/rocaimg.jpg";
 import duvarkagidi from "../utils/img/duvarkagidi.jpg";
 import artemisimg from "../utils/img/artemisimg.jpg";
 import orkaimg from "../utils/img/orkaimg.jpg";
 import blancoimg from "../utils/img/blancoimg.jpg";
+import creavitimg1 from "../utils/img/creavitimg1.jpg";
 
 import "./Galeri.css";
 
@@ -33,7 +34,7 @@ const Galeri = () => {
           <img className=" img-fluid" src={creavitimg} alt="" />
         </Col>
         <Col>
-          <img className="  img-fluid" src={evaimg1} alt="" />
+          <img className="  img-fluid" src={rocaimg} alt="" />
         </Col>
         <Col>
           <img className=" img-fluid " src={duvarkagidi} alt="" />
@@ -45,7 +46,7 @@ const Galeri = () => {
         </Col>
         <Col>
           
-          <img className=" img-fluid" src={orkaimg} alt="" />
+          <img className=" img-fluid" src={creavitimg1} alt="" />
         </Col>
         <Col>
           <img className=" img-fluid" src={blancoimg} alt="" />

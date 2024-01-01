@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.location:hover {
+  color: #ffc107;
+  transition: 0.6s;
+}
+
+.faydalilinkler:hover {
+  color: #ffc107 !important;
+  transition: 0.6s;
+}
+@media only screen and (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+}
