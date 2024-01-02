@@ -2,12 +2,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-    /* Diğer stil kuralları buraya eklenebilir */
 }
-.container2{
-  min-height: 100vh; 
+.container-contact{
+  height: 100vh; 
   background: rgb(185, 185, 185); 
+  margin-top: 50px;
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+.contact-in{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px #666;
+}
+.contact-map{
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+.contact-map iframe{
+  width: 100%;
+  height: 100%;
+ 
+}
+.contact-form{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  flex: 50%;
 }
 
-  
+.contact-form h1{
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.contact-form-links ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-form-links ul li{
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+
