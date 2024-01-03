@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container-seramik {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-seramik-card{
+  width: 500px;
+  height: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.container-seramik-card img:hover{
+  transform: scale(1.05);
+  transition: .6s;
+}

@@ -9,6 +9,8 @@ import Vitrifiye from "./pages/Vitrifiye";
 import Banyomobilyalari from "./pages/Banyomobilyalari";
 import Navbar1 from "./components/Navbar1";
 import Footer from "./components/Footer";
+import Duskabini from './pages/Duskabini';
+import Ankastre from './pages/Ankastre';
 
 function App() {
   return (
@@ -18,11 +20,12 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Anasayfa />} />
-
           <Route path="/about" element={<Hakkimizda />} />
           <Route path="/seramik" element={<Seramik />} />
           <Route path="/duvarkagidi" element={<Duvarkagidi />} />
           <Route path="/vitrifiye" element={<Vitrifiye />} />
+          <Route path="/duskabini" element={<Duskabini />} />
+          <Route path="/ankastre" element={<Ankastre />} />
           <Route path="/banyomobilyalari" element={<Banyomobilyalari />} />
           <Route path="/contact" element={<Contact /> } />
         </Routes>

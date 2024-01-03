@@ -8,7 +8,6 @@ import creavitimg from "../utils/img/creavitimg.jpg";
 import rocaimg from "../utils/img/rocaimg.jpg";
 import duvarkagidi from "../utils/img/duvarkagidi.jpg";
 import artemisimg from "../utils/img/artemisimg.jpg";
-import orkaimg from "../utils/img/orkaimg.jpg";
 import blancoimg from "../utils/img/blancoimg.jpg";
 import creavitimg1 from "../utils/img/creavitimg1.jpg";
 

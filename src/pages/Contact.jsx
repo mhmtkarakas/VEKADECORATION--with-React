@@ -4,6 +4,7 @@ import { FaPhone } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaInstagramSquare } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -36,12 +37,18 @@ const Contact = () => {
               <li>
                 <IoIosMail /> vekamimarlikdekorasyon@gmail.com
               </li>
-              <li>
-                <FaInstagramSquare /> @vekadekorasyon{" "}
-              </li>
+              <Link
+                to={"https://www.instagram.com/vekadekorasyon/"}
+                target="_blank"
+                className="text-dark text-decoration-none"
+              >
+                {" "}
+                <li>
+                  <FaInstagramSquare /> @vekadekorasyon{" "}
+                </li>
+              </Link>
             </ul>
           </div>
-         
         </div>
       </div>
     </div>

@@ -26,14 +26,16 @@ const Navbar1 = () => {
             
               <NavDropdown  title="URUNLER" id="basic-nav-dropdown" className='text-uppercase text-light'>
               <NavDropdown.Item href="seramik"  >Seramik</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="duvarkagidi">
                 duvar kagidi
               </NavDropdown.Item>
               <NavDropdown.Item href="/vitrifiye">vitrifiye</NavDropdown.Item>
-              <NavDropdown.Divider />
+              <NavDropdown.Item href="/duskabini">dus kabini</NavDropdown.Item>
+              <NavDropdown.Item href="/ankastre">Ankastre&&Evye</NavDropdown.Item>
               <NavDropdown.Item href="/banyomobilyalari">
                 Banyo Mobilyalari
               </NavDropdown.Item>
+              <NavDropdown.Item href="/vitrifiye">Yapi Kimyasallari</NavDropdown.Item>
             </NavDropdown>
             
               <Nav.Link href='/about' className='text-uppercase d-flex align-items-center '>Hakkimizda <FcAbout className='mx-1'/></Nav.Link>
