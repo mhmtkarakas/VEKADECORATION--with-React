@@ -35,7 +35,7 @@ const Navbar1 = () => {
               <NavDropdown.Item href="/banyomobilyalari">
                 Banyo Mobilyalari
               </NavDropdown.Item>
-              <NavDropdown.Item href="/vitrifiye">Yapi Kimyasallari</NavDropdown.Item>
+              <NavDropdown.Item href="/yapikimyasallari">Yapi Kimyasallari</NavDropdown.Item>
             </NavDropdown>
             
               <Nav.Link href='/about' className='text-uppercase d-flex align-items-center '>Hakkimizda <FcAbout className='mx-1'/></Nav.Link>

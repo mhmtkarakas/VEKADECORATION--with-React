@@ -1,37 +1,44 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import CardGroup from "react-bootstrap/CardGroup";
 import "./Duvarkagidi.css";
-import dukaimg from "../utils/img/dukaimg.png";
+import yashampage from "../utils/img/yashampage.png";
+import yasham from "../utils/img/yasamimg.png";
+import dukapage from "../utils/img/dukapage.jpg";
+import dukapng from "../utils/img/dukaimg.png";
 import { Link } from "react-router-dom";
 
-const Duvarkagidi = () => {
+const Ankastre = () => {
   return (
     <div className="container-duvarkagidi">
-      <Card style={{ width: "18rem", border: "0", marginTop: "15px" }}>
-        <Card.Img
-          variant="top mb-4"
-          src="	https://www.yasham.com.tr/assets/image/logo.png"
-        />
-        <Card.Body>
+      <CardGroup >
+        <Card className="custom-card">
           <Link to={"https://www.yasham.com.tr/"} target="_blank">
             {" "}
-            <Button variant="dark w-100">Yasham Duvar Kagitlari</Button>
+            <Card.Img variant="top img-fluid" src={yashampage} />{" "}
           </Link>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "18rem", border: "0" }}>
-        <Card.Img variant="top " src={dukaimg} />
-        <Card.Body className="text-center ">
+
+          <Card.Img className="card-yasham"
+            variant="top bg-white img-fluid"
+            style={{ width: "300px", height: "70px" }}
+            src={yasham}
+          ></Card.Img>
+        </Card>
+        <Card className="custom-card">
           <Link to={"https://www.dukaduvarkagidi.com/"} target="_blank">
-            <Button variant="dark text-center w-100">
-              Duka Duvar Kagitlari
-            </Button>
+            <Card.Img variant="top img-fluid" src={dukapage} />
           </Link>
-        </Card.Body>
-      </Card>
+
+          <Card.Img className="card-duka"
+            variant="top bg-white  img-fluid"
+            style={{ width: "300px", height: "70px" }}
+            src={dukapng}
+          ></Card.Img>
+        </Card>
+      </CardGroup>
     </div>
   );
 };
 
-export default Duvarkagidi;
+export default Ankastre;
+
