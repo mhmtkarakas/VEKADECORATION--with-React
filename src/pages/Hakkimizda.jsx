@@ -1,16 +1,18 @@
 import React from "react";
-import Headerimage from "../utils/img/header-img.jpeg";
+import Hakkimizda1 from "../utils/img/hakkimizdaresim1.jpg";
+import Hakkimizda2 from "../utils/img/hakkimizdaresim2.jpg";
 import "./Hakkimizda.css";
 
 const Hakkimizda = () => {
   return (
+    
     <div className="container-main">
       <div className="img-container">
         <div className="img-magaza">
-          <img src={Headerimage} alt="" />
+          <img  src={Hakkimizda1} alt="" />
         </div>
         <div className="img-store">
-        <img src={Headerimage} alt="" />
+        <img  src={Hakkimizda2} alt="" />
         </div>
       </div>
       <div className="about-container">

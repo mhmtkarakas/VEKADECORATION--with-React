@@ -8,6 +8,8 @@ import blanco from "../utils/img/blanco-ankastre.jpg";
 import blancopage from "../utils/img/blancoimg.png";
 import realstone from "../utils/img/realstone-img.jpg";
 import realstonepage from "../utils/img/realstoneimg.png";
+import craufpage from "../utils/img/craufpage.jpg";
+import craufpng from "../utils/img/craufpng.png";
 import { Link } from "react-router-dom";
 
 const Ankastre = () => {
@@ -46,6 +48,17 @@ const Ankastre = () => {
             variant="top bg-success w-100 img-fluid"
             style={{ width: "200px", height: "70px" }}
             src={realstonepage}
+          ></Card.Img>
+        </Card>
+        <Card className="custom-card">
+          <Link to={"https://crauf.com/"} target="_blank">
+            {" "}
+            <Card.Img variant="top img-fluid" src={craufpage} />
+          </Link>
+          <Card.Img
+            variant="top bg-success w-100 img-fluid"
+            style={{ width: "200px", height: "70px" }}
+            src={craufpng}
           ></Card.Img>
         </Card>
       </CardGroup>

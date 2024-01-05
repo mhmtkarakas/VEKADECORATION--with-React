@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import Headerimage from "../utils/img/header-img.jpeg";
+import Headerimage from "../utils/img/discephe.jpg";
 
 import "./Hakimizda.css";
 
