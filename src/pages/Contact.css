@@ -57,5 +57,9 @@
   font-weight: 500;
 }
 
-
+.contact-form-links ul li.instagram:hover{
+ transform: scale(1.05);
+ transition: .6s;
+ color: black;
+}
 

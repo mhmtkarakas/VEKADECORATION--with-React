@@ -44,7 +44,11 @@ const Footer = () => {
             >
               <p className=" text-white faydalilinkler">NG Kutahya Seramik</p>
             </Link>
-            <Link  style={{ textDecoration: "none" }}>
+            <Link
+              to={"https://www.creavit.com.tr/"}
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
               <p className=" text-white faydalilinkler">Creavit</p>
             </Link>
             <Link

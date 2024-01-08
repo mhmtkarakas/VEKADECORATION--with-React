@@ -43,7 +43,7 @@ const Contact = () => {
                 className="text-dark text-decoration-none"
               >
                 {" "}
-                <li>
+                <li className="instagram">
                   <FaInstagramSquare /> @vekadekorasyon{" "}
                 </li>
               </Link>
