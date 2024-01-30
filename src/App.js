@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import Duskabini from './pages/Duskabini';
 import Ankastre from './pages/Ankastre';
 import Yapikimyasallari from './pages/Yapikimyasallari';
+import Referanslar from './pages/Referanslar';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/ankastre" element={<Ankastre />} />
           <Route path="/banyomobilyalari" element={<Banyomobilyalari />} />
           <Route path="/yapikimyasallari" element={<Yapikimyasallari />} />
+          <Route path="/referanslar" element={<Referanslar />} />
           <Route path="/contact" element={<Contact /> } />
         </Routes>
         <Footer />

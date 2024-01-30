@@ -100,6 +100,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="text-center"><small>Designed By Mehmet Karakas</small></div>
     </footer>
   );
 };

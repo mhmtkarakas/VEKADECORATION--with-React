@@ -37,7 +37,7 @@ const Hakimizda = () => {
           </p>
           <Link to="/about">
             <button type="button" className="btn btn-outline-dark btn-lg">
-              Hakkimizda Daha Fazlasi
+              Hakkımızda Daha Fazlasi
             </button>
           </Link>
         </div>

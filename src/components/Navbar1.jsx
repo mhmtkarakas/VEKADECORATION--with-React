@@ -30,7 +30,7 @@ const Navbar1 = () => {
               </Nav.Link>
 
               <NavDropdown
-                title="URUNLER"
+                title="ÜRÜNLER"
                 id="basic-nav-dropdown"
                 className="text-uppercase text-light"
               >
@@ -50,6 +50,9 @@ const Navbar1 = () => {
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/yapikimyasallari">
                   Yapi Kimyasallari
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/referanslar">
+                  Referanslar
                 </NavDropdown.Item>
               </NavDropdown>
 
