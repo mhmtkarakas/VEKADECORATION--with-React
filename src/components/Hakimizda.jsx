@@ -9,16 +9,16 @@ const Hakimizda = () => {
   return (
     <div className="container  my-5">
       <div className="row  hakkimizda">
-        <div className="col-lg-6 d-flex justify-content-center  d-lg-flex">
+        <div className="col-lg-6 col-sm-6 d-flex justify-content-center  d-lg-flex">
           <img
             src={Headerimage}
             className="img-fluid w-100 shadow rounded"
-            alt="about img"
+            alt="veka mimarlık dekorasyon işyeri resmi"
           />
         </div>
-        <div className="col-lg-6 d-flex flex-column align-items-center justify-content-center">
+        <div className="col-lg-6 col-sm-6  d-flex flex-column align-items-center justify-content-center">
           <h2 className="fs-1 mb-5 text-uppercase fw-bold">Hakkimizda</h2>
-          <p className="text-hakkimizda">
+          <p className="text-hakkimizda text-center">
             Firmamız, 2010 yılında Diyarbakır'da seramik sektöründe faaliyete
             geçerek, ışıltılı bir serüvene başladı. Yıllar içinde, seramik,
             granit, vitrifiye, duvar kağıtları ve banyo dolapları gibi geniş bir
@@ -27,7 +27,7 @@ const Hakimizda = () => {
             sağladığı kaliteli ürünlerle sektörde güvenilir bir iş ortağı haline
             geldi.
           </p>
-          <p className="mb-5 text-hakkimizda">
+          <p className="mb-5 text-hakkimizda text-center">
             Gelişen inşaat sektörüne paralel olarak, iş ortaklıkları ve
             projelerdeki başarılarıyla ön plana çıkan firmamız, Diyarbakır'ın
             yanı sıra çevre illerde de değerli müşterilerine hizmet sunmaktadır.

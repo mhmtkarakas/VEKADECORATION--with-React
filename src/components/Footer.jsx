@@ -8,23 +8,23 @@ import "./Footer.css"
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white w-100 pt-5 pb-4">
+    <footer className="bg-dark overflow-hidden text-white w-100 pt-5 pb-4">
       <div className="Container  text-md-left ">
         <div className="row  text-md-left ">
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">
-              veka mimarlik dekorasyon ltd sti
+              veka mimarlık dekorasyon ltd şti
             </h5>
           </div>
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">
-              Urunler
+              Ürünler
             </h5>
             <Link to={"/seramik"} style={{ textDecoration: "none" }}>
               <p className="text-white faydalilinkler">Seramik</p>
             </Link>
             <Link to={'/duvarkagidi'} style={{ textDecoration: "none" }}>
-              <p className="text-white faydalilinkler">Duvar Kagidi</p>
+              <p className="text-white faydalilinkler">Duvar Kağıdı</p>
             </Link>
             <Link to={'/vitrifiye'} style={{ textDecoration: "none" }}>
               <p className="text-white faydalilinkler">Vitrifiye</p>
@@ -42,7 +42,7 @@ const Footer = () => {
               target="_blank"
               style={{ textDecoration: "none" }}
             >
-              <p className=" text-white faydalilinkler">NG Kutahya Seramik</p>
+              <p className=" text-white faydalilinkler">NG Kütahya Seramik</p>
             </Link>
             <Link
               to={"https://www.creavit.com.tr/"}
@@ -56,13 +56,13 @@ const Footer = () => {
             target="_blank"
               style={{ textDecoration: "none" }}
             >
-              <p className=" text-white faydalilinkler">Yasham Duvar Kagitlari</p>
+              <p className=" text-white faydalilinkler">Yasham Duvar Kağıtları</p>
             </Link>
         
           </div>
           <div className=" col-md-4 col-lg-3 col-xl-3 mx-auto d-block text-left mt-3  ">
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">
-              Iletisim
+              İletişim
             </h5>
             <Link
               to={"/contact"}
@@ -74,15 +74,15 @@ const Footer = () => {
                 <i>
                  <MdLocationOn />
                 </i>{" "}
-                Firat Mah. Yeni Stad Yolu Uzeri Firat Bulvari No119/EB
-                Kayapinar/Diyarbakir
+                Fırat Mah. Yeni Stad Yolu Üzeri Fırat Bulvarı No119/EB
+                Kayapınar/Diyarbakır
               </p>
             </Link>
             <p>
               <i className="mr-3">
               <FaPhone />
               </i>{" "}
-              +905326504865 +905436171021
+              +905326504865 && +905436171021
             </p>
             <p>
               <i className="mr-3">

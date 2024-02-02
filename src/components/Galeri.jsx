@@ -17,38 +17,38 @@ const Galeri = () => {
   return (
     <Container className="tanitimresimleri">
       <h2 className="text-center fs-1 mb-5 text-uppercase fw-bold">GALERI</h2>
-      <Row className="my-3">
-        <Col>
-          <img className=" img-fluid" src={kutahyaimg1} alt="" />
+      <Row className="my-3 justify-content-center">
+        <Col s={12} md={4}>
+          <img  className="img-fluid"  src={kutahyaimg1} alt="veka mimarlık dekorasyon 6.resim" />
         </Col>
-        <Col>
-          <img className=" img-fluid " src={kutahyaimg2} alt="" />
+        <Col s={12} md={4}>
+          <img x className="img-fluid"  src={kutahyaimg2} alt="veka mimarlık dekorasyon 7.resim" />
         </Col>
-        <Col>
-          <img className="img-fluid " src={kutahyaimg3} alt="" />
-        </Col>
-      </Row>
-      <Row className="my-3">
-        <Col>
-          <img className=" img-fluid" src={creavitimg} alt="" />
-        </Col>
-        <Col>
-          <img className="  img-fluid" src={rocaimg} alt="" />
-        </Col>
-        <Col>
-          <img className=" img-fluid " src={duvarkagidi} alt="" />
+        <Col s={12} md={4}>
+          <img className="img-fluid" src={kutahyaimg3} alt="veka mimarlık dekorasyon 8.resim" />
         </Col>
       </Row>
-      <Row className="my-3">
-        <Col>
-          <img className=" img-fluid" src={artemisimg} alt="" />
+      <Row className="my-3   justify-content-center">
+        <Col s={12} md={4}>
+          <img  className="img-fluid" src={creavitimg} alt="veka mimarlık dekorasyon 9.resim" />
         </Col>
-        <Col>
+        <Col s={12} md={4}>
+          <img  className="img-fluid" src={rocaimg} alt="veka mimarlık dekorasyon 10.resim" />
+        </Col>
+        <Col s={12} md={4}>
+          <img  className="img-fluid"  src={duvarkagidi} alt="veka mimarlık dekorasyon 11.resim" />
+        </Col>
+      </Row>
+      <Row className="my-3   justify-content-center">
+        <Col s={12} md={4}>
+          <img  className="img-fluid"  src={artemisimg} alt="veka mimarlık dekorasyon 12.resim" />
+        </Col>
+        <Col s={12} md={4}>
           
-          <img className=" img-fluid" src={creavitimg1} alt="" />
+          <img  className="img-fluid"  src={creavitimg1} alt="veka mimarlık dekorasyon 13.resim" />
         </Col>
-        <Col>
-          <img className=" img-fluid" src={blancoimg} alt="" />
+        <Col s={12} md={4}>
+          <img className="img-fluid"  src={blancoimg} alt="veka mimarlık dekorasyon 14.resim" />
         </Col>
       </Row>
     </Container>

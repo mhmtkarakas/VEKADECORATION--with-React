@@ -9,22 +9,22 @@ const Hakkimizda = () => {
     <div className="container-main">
       <div className="img-container">
         <div className="img-magaza">
-          <img  src={Hakkimizda1} alt="" />
+          <img className="img-fluid"  src={Hakkimizda1} alt="veka mimarlık dekorasyon işyeri resmi 1" />
         </div>
         <div className="img-store">
-        <img  src={Hakkimizda2} alt="" />
+        <img className="img-fluid"   src={Hakkimizda2} alt="veka mimarlık dekorasyon işyeri resmi 2" />
         </div>
       </div>
       <div className="about-container">
         <h2>HAKKIMIZDA</h2>
-        <p>
+        <p className="text-center">
           Firmamız, 2010 yılında Diyarbakır şehrinde seramik sektöründe faaliyet
           göstermek üzere kurulmuştur. Başlangıcımızdan itibaren kalite,
           güvenilirlik ve müşteri memnuniyetini temel ilke edinerek, geniş bir
           ürün yelpazesi sunmaktayız.
         </p>
         <h3>Ürün ve Hizmetlerimiz</h3>
-        <p>
+        <p className="text-center ">
           Firmamız, seramik alanında uzmanlaşmış olup, başta seramik ve granit
           olmak üzere vitrifiye ürünleri, duvar kağıtları, banyo dolapları,
           duşakabinler ve benzeri ürünlerle müşterilerimize geniş bir ürün
@@ -32,21 +32,21 @@ const Hakkimizda = () => {
           müşterilere hem de konut projelerine hizmet veriyoruz.
         </p>
         <h3>Projeler ve İş Ortaklıkları</h3>
-        <p>
+        <p className="text-center">
           Firmamız, konut projelerine seramik ve granit ürünleri tedariki
           konusunda uzmanlaşmıştır. İnşaat sektöründeki profesyonel iş
           ortaklarımıza kaliteli ürünlerle destek vererek, estetik ve dayanıklı
           çözümler sunmaktayız.
         </p>
         <h3>Müşteri Memnuniyeti</h3>
-        <p>
+        <p className="text-center">
           Müşteri memnuniyeti, işimizin temel taşıdır. Her bir müşterimizin
           beklentilerini anlamak, ihtiyaçlarına uygun çözümler sunmak ve
           güvenilir hizmetimizle kalıcı bir müşteri memnuniyeti oluşturmak en
           önemli hedeflerimizdendir.
         </p>
-        <h3>Şehrimize Hizmet Veriyoruz</h3>
-        <p>
+        <h3 >Şehrimize Hizmet Veriyoruz</h3>
+        <p className="text-center">
           Diyarbakır şehrine kök salmış ve bu güzel şehre değer katmaktan gurur
           duyuyoruz. Sektördeki tecrübemiz ve uzman kadromuzla, Diyarbakır ve
           çevresindeki müşterilerimize en iyi hizmeti sunmayı amaçlıyoruz.

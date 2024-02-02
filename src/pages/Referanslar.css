@@ -1,5 +1,5 @@
 .ref-container{
-    height: 120vh;
+    height: auto;
     margin-top: 110px;
    
 }
@@ -13,3 +13,18 @@
     font-size: 20px;
     margin-left: 200px;
 }
+
+@media only screen and (max-width: 768px) {
+    .ref-container h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .ref-container p{
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: 350;
+        font-size: 15px;
+        margin-left: 175px;
+    }
+}
+

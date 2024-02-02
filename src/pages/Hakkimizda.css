@@ -1,13 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
 .container-main {
   display: flex;
   flex-direction: row;
-
 }
 .img-container {
   flex: 1;
@@ -18,19 +11,17 @@
   opacity: 0;
   animation: fadeIn 0.8s ease-in-out 0.8s forwards;
   margin: 100px 30px 50px 0;
- 
-  
-
 }
 
-.img-container img{
-   width:550px;
-   height: 400px;
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-   border-radius: 5px;
+.img-container img {
+  width: 550px;
+  height: 400px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 5px;
 }
-.img-container .img-store{
- opacity: 0;
+.img-container .img-store {
+  opacity: 0;
   animation: fadeIn 1.4s ease-in-out 1.4s forwards;
 }
 .about-container {
@@ -47,7 +38,7 @@
 }
 .about-container h3 {
   text-align: center;
-  font-weight: 5 00;
+  font-weight: 500;
 }
 
 @keyframes fadeIn {
@@ -56,42 +47,45 @@
   }
 }
 @media only screen and (max-width: 1050px) {
-  .container-main{
+  .container-main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .about-container{
+  .about-container {
     margin-top: 10px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .container-main{
+  .container-main {
     display: flex;
     flex-direction: column;
     padding: 10px;
-  
   }
-.about-container h2{
-     font-size:35px ;
+  .about-container h2 {
+    font-size: 35px;
   }
-  .about-container p{
+  .about-container p {
     font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 576px) {
-  .container-main{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 10px;
+  .about-container {
+    margin-top: 10px;
+    overflow: visible;
+   
   }
-  .about-container h2{
-    font-size:35px ;
- }
- .about-container p{
-  font-size: 15px;
-}
+  .about-container h2 {
+    font-size: 32px;
+  }
+  .about-container p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  body {
+    overflow-x: hidden;
+  }
 }

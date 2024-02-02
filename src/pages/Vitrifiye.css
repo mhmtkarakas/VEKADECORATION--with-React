@@ -11,6 +11,7 @@
  align-items: center;
  justify-content: center;
  flex-direction: column;
+ flex-wrap: wrap;
  gap: 40px;
  margin: 85px 0;
 }
