@@ -63,3 +63,26 @@
  color: black;
 }
 
+@media only screen and (max-width: 576px){
+  .contact-in{
+    width:60% ;
+  }
+  .contact-map{
+    width: 100%;
+    overflow: hidden;
+  }
+  .contact-form{
+    width: 100%;
+  }
+  .contact-form h1{
+     font-size: 17px;
+  }
+  .contact-form-links ul{
+    padding: 5px;
+  }
+  .contact-form-links ul li{
+    font-size: 12px;
+    text-align: left;
+  }
+}
+

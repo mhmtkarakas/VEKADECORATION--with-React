@@ -12,7 +12,7 @@ const Seramik = () => {
     <div className="container-seramik">
     <CardGroup >
       <Card className="custom-card">
-        <Link to={"https://www.kyk.com.tr/"} target="_blank">
+        <Link to={"https://ngkutahyaseramik.com.tr/"} target="_blank">
           {" "}
           <Card.Img variant="top img-fluid" src={kutahyaimg4} />{" "}
         </Link>

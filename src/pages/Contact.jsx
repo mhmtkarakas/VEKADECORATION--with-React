@@ -22,7 +22,7 @@ const Contact = () => {
           ></iframe>
         </div>
         <div className="contact-form">
-          <h1>Bizimle Iletisime Gecin</h1>
+          <h1>Bizimle İletişime Geçin</h1>
 
           <div className="contact-form-links">
             <ul>
