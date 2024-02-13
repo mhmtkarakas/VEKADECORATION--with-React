@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container-contact{
-  height: 100vh; 
+  min-height: 100vh; 
   background: rgb(185, 185, 185); 
   margin-top: 50px;
   width: 100%;
@@ -65,7 +65,7 @@
 
 @media only screen and (max-width: 576px){
   .contact-in{
-    width:60% ;
+    width:80% ;
   }
   .contact-map{
     width: 100%;
@@ -83,6 +83,10 @@
   .contact-form-links ul li{
     font-size: 12px;
     text-align: left;
+  }
+  .contact-form-links ul li span{
+    word-wrap: break-word; 
+    word-break: break-all;
   }
 }
 

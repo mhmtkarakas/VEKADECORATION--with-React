@@ -9,7 +9,7 @@ const Referanslar = () => {
     <Container className='ref-container'>
     <Row>
         <h1 className='text-center'>REFERANSLAR</h1>
-      <Col className='text-center my-5'>
+      <Col className='text-center my-5' sm={6}>
       <p>Ay Yapı Office</p>
       <p>Ay Yapı Ihlamur</p>
       <p>Ay Yapı Çınar</p>
@@ -29,7 +29,7 @@ const Referanslar = () => {
       
       </Col>
 
-      <Col className='text-center my-5'>
+      <Col className='text-center my-5' sm={6}>
       <p>PİA Yapı</p>
       <p>Selenyum insaat</p>
       <p>Özmenler yapi</p>

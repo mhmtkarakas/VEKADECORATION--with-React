@@ -90,12 +90,12 @@ const Footer = () => {
               </i>{" "}
               vekamimarlikdekorasyon@gmail.com
             </p>
-           <Link to={'https://www.instagram.com/vekadekorasyon/'} target="_blank"  className="faydalilinkler text-white"
+           <Link to={'https://www.instagram.com/vekadekorasyonmimarlik/'} target="_blank"  className="faydalilinkler text-white"
               style={{ textDecoration: "none" }}> <p>
               <i className="mr-3">
                <FaInstagramSquare />
               </i>{" "}
-              @vekadekorasyon
+              @vekadekorasyonmimarlik
             </p></Link>
           </div>
         </div>

@@ -7,11 +7,11 @@
     text-decoration: underline;
 }
 .ref-container p{
-    text-align: left;
+ 
     text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
-    margin-left: 200px;
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -20,11 +20,20 @@
         text-align: center;
     }
     .ref-container p{
-        text-align: left;
+        text-align: center;
         text-transform: uppercase;
         font-weight: 350;
         font-size: 15px;
-        margin-left: 175px;
+      
     }
 }
 
+@media only screen and (max-width: 568px){
+    .ref-container h1{
+        font-size: 1.5rem;
+        text-align: center;
+    } 
+    .ref-container p{
+        font-size: 13px;
+    }
+}

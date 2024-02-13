@@ -34,8 +34,8 @@ const Contact = () => {
                 {" "}
                 <FaPhone /> +905326504865 && +905436171021
               </li>
-              <li>
-                <IoIosMail /> vekamimarlikdekorasyon@gmail.com
+              <li className="mail">
+                <IoIosMail /> vekamimarlikdekorasyon<span>@gmail.com</span>
               </li>
               <Link
                 to={"https://www.instagram.com/vekadekorasyon/"}
