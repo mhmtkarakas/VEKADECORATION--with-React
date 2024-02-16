@@ -51,6 +51,9 @@ const Navbar1 = () => {
                 <NavDropdown.Item href="/yapikimyasallari">
                   Yapi Kimyasallari
                 </NavDropdown.Item>
+                <NavDropdown.Item href="/yardimciurunler">
+                  Yardımcı Ürünler
+                </NavDropdown.Item>
                 <NavDropdown.Item href="/referanslar">
                   Referanslar
                 </NavDropdown.Item>
