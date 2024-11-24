@@ -1,6 +1,6 @@
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Anasayfa from "./pages/Anasayfa";
 import Hakkimizda from "./pages/Hakkimizda";
 import Contact from "./pages/Contact";
@@ -24,7 +24,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Anasayfa />} />
-          <Route path="/about" element={<Hakkimizda />} />
+          <Route path="/kurumsal" element={<Hakkimizda />} />
           <Route path="/seramik" element={<Seramik />} />
           <Route path="/duvarkagidi" element={<Duvarkagidi />} />
           <Route path="/vitrifiye" element={<Vitrifiye />} />

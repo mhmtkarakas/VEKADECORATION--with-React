@@ -1,6 +1,65 @@
-.home-page {
-  min-height: 100vh; 
-  
+
+.carousel-item {
+  margin-top: 30px;
+width: 100%;
+}
+.carousel-item img {
+  aspect-ratio: 16/7 !important;
+  object-fit: cover !important;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+
+/* Carousel Caption Styles */
+.carousel-caption h3 {
+ 
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase; /* Metni büyük harfe çevirir */
+  color: #ffffff; /* Yazı rengini beyaz yapar */
+  background-color: rgba(0, 0, 0, 0.2); /* Hafif bir arka plan ekler */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase; /* P etiketlerindeki yazıları büyük harfe çevirir */
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px 10px;
+  border-radius: 5px;
+margin: auto;
+}
+
+/* General Responsiveness */
+@media (max-width: 768px) {
+  .carousel-item {
+    margin-top: -10px;
+  }
+
+
+  .carousel-caption h3 {
+    font-size: 1rem ;
+  }
+
+  .carousel-caption p {
+    font-size: .5rem;
+   
+  }
+}
+
+/* Padding for Sections Below Slider */
+.home-page > div {
+  padding: 7px;
+}
+.home-page .carousel {
+  margin-top: 0; /* Navbar ile slider arasında gereksiz boşluk bırakmaz */
 }
 
 

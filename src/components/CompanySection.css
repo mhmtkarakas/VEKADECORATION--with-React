@@ -1,0 +1,17 @@
+.company-section {
+    max-width: 90%;
+    text-align: left;
+    border: 2px solid black;
+  }
+  
+  .company-section h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .company-section p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  

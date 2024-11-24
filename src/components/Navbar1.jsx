@@ -36,7 +36,7 @@ const Navbar1 = () => {
                 <span>REFERANSLARIMIZ</span>
               </Nav.Link>
 
-              <Nav.Link href="/iletisim" className="nav-link text-uppercase mx-2">
+              <Nav.Link href="/contact" className="nav-link text-uppercase mx-2">
                 <span>İLETİŞİM</span>
               </Nav.Link>
             </Nav>
