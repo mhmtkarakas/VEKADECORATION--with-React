@@ -1,5 +1,6 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css"
 import Anasayfa from "./pages/Anasayfa";
 import Hakkimizda from "./pages/Hakkimizda";
 import Contact from "./pages/Contact";
