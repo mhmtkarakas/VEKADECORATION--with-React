@@ -1,26 +1,107 @@
-.text-hakkimizda{
+/* Ana Konteyner */
+.hakimizda-container {
+   margin-top: 20px;
+  background: linear-gradient(145deg, #444, #222);
+  border-radius: 15px;
+  padding: 30px;
+  color: #ffffff;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* İçerik (Resim ve Metin Yan Yana) */
+.hakimizda-content {
+ padding: 50px;
+  display: flex;
+  flex-wrap: wrap; /* Responsive tasarım için */
+  gap: 20px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Resim Alanı */
+.hakimizda-image {
+  flex: 1;
+  min-width: 300px; /* Küçük ekranlarda uyumlu */
+  max-width: 600px; /* Masaüstü ekranlarda sınır */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hakimizda-image img {
+  width: 100%; /* Resim, alanın genişliğine uyum sağlar */
+  height: auto; /* Oran koruması */
+  max-height: 400px; /* Taşmayı önlemek için maksimum yükseklik */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hakimizda-image img:hover {
+  transform: scale(1.05);
+}
+
+/* Metin Alanı */
+.hakimizda-text {
+  flex: 1;
+  min-width: 300px; /* Küçük ekranlarda uyumlu */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hakimizda-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color:  #ffcc00  !important;
+}
+
+.hakimizda-text p {
   text-align: justify;
-  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
 
-@media only screen and (max-width: 1080px) {
-  .container h2 {
-    margin-top: 50px;
-  }
+
+.custom-link {
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
 }
+
+.custom-link:hover {
+  color: #fff;
+  transform: scale(1.01);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Responsive Tasarım */
 @media only screen and (max-width: 768px) {
-  .container h2 {
-    margin-top: 50px;
-  }
-  
-}
-
-@media only screen and (max-width: 576px) {
-  header h1 {
-    font-size: 4rem;
+  .hakimizda-content {
+    flex-direction: column;
+    text-align: center; /* Metin ve resim ortalanır */
   }
 
-  .container h2 {
-    margin-top: 10px;
+  .hakimizda-image {
+    width: 100%; /* Resim alanı tam genişlikte olur */
+  }
+
+  .hakimizda-image img {
+    max-width: 100%; /* Küçük ekranlarda aşmayı önler */
+    height: auto; /* Oran koruması devam eder */
   }
 }
