@@ -1,21 +1,34 @@
 import React from "react";
 import "./CeramicAnimation.css";
 
+import image1 from "../utils/img/adelbeyaz.jpeg";
+import image2 from "../utils/img/atlantisantrasit.jpeg";
+import image3 from "../utils/img/atlantisbeyaz.jpeg";
+import image4 from "../utils/img/avend.jpeg";
+import image5 from "../utils/img/barbados.jpeg";
+import image6 from "../utils/img/blackcalacatta.jpeg";
+import image7 from "../utils/img/elegantgri.jpeg";
+import image8 from "../utils/img/mareakgri.jpeg";
+import image9 from "../utils/img/narsistlatte.jpeg";
+import image10 from "../utils/img/rainforest.jpeg";
+import image11 from "../utils/img/pulpisprimeagri.jpeg";
+import image12 from "../utils/img/valerya.jpeg";
+
 const CeramicAnimation = () => {
   // Örnek resimler
   const ceramicImages = [
-    "/path/to/image1.jpg",
-    "/path/to/image2.jpg",
-    "/path/to/image3.jpg",
-    "/path/to/image4.jpg",
-    "/path/to/image5.jpg",
-    "/path/to/image6.jpg",
-    "/path/to/image7.jpg",
-    "/path/to/image8.jpg",
-    "/path/to/image9.jpg",
-    "/path/to/image10.jpg",
-    "/path/to/image11.jpg",
-    "/path/to/image12.jpg",
+    image1,
+    image2,
+    image3 ,
+    image4,
+    image5,
+    image6,
+    image7,
+    image8,
+    image9 ,
+    image10 ,
+    image11,
+    image12,
   ];
 
   return (

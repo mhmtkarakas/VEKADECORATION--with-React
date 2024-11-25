@@ -1,17 +1,75 @@
 .company-section {
-    max-width: 90%;
-    text-align: left;
-    border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  padding: 20px;
+  background: linear-gradient(145deg, #444, #222);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.text-section {
+  margin-bottom: 20px;
+}
+
+.text-section h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffcc00;
+  text-transform: uppercase;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.text-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.images-section {
+  display: flex;
+  gap: 15px;
+}
+
+.images-section .image {
+  width: 45%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.images-section .image:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+  .company-section {
+    align-items: center;
+    text-align: center;
   }
-  
-  .company-section h2 {
+
+  .text-section h1 {
     font-size: 2rem;
-    color: #333;
   }
-  
-  .company-section p {
-    font-size: 1.2rem;
-    color: #555;
-    line-height: 1.6;
+
+  .text-section p {
+    font-size: 1rem;
   }
-  
+
+  .images-section {
+    flex-direction: column;
+  }
+
+  .images-section .image {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

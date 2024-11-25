@@ -1,54 +1,63 @@
 .ceramic-animation {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    perspective: 1000px;
-    background: rgb(10,6,73);
-    background: radial-gradient(circle, rgba(10,6,73,0.9758753843334209) 0%, rgba(9,5,66,0.9758753843334209) 96%, rgba(0,212,255,1) 100%);
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  perspective: 1000px;
+  background: linear-gradient(145deg, #444, #222); /* Şirket bölümüyle aynı degrade */
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Gölge */
+
+  margin-top: 70px;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate-elipse 10s linear infinite;
+}
+
+.ceramic-tile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 160px;
+  transform-origin: center;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+
+.ceramic-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes rotate-elipse {
+  from {
+    transform: rotateY(0deg) rotateX(10deg);
   }
-  
-  .circle {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    animation: rotate-elipse 10s linear infinite;
+  to {
+    transform: rotateY(360deg) rotateX(10deg);
   }
-  
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+  .ceramic-animation {
+    width: 100%;
+    height: 45vh;
+    margin-top: 10px;
+  }
+
   .ceramic-tile {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 80px;
-    height: 160px;
-    transform-origin: center;
-    background: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 120px;
   }
-  
-  .ceramic-tile img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Resmi tam olarak sığdır */
-  }
-  
-  @keyframes rotate-elipse {
-    from {
-      transform: rotateY(0deg) rotateX(10deg);
-    }
-    to {
-      transform: rotateY(360deg) rotateX(10deg); /* Elips etkisi için X ekseninde sabit hafif eğim */
-    }
-  }
-  
-  /* Responsive Tasarım */
-  @media (max-width: 768px) {
-    .ceramic-tile {
-      width: 60px;
-      height: 120px;
-    }
-  }
+}
