@@ -3,8 +3,8 @@ import Carousel from "react-bootstrap/Carousel";
 import "./Anasayfa.css";
 import { useState } from "react";
 import Hakimizda from "./../components/Hakimizda";
-import Markalar from "../components/Markalar";
-import Galeri from './../components/Galeri';
+
+
 
 
 import slider_1 from "./../utils/img/slider_1.jpg"
@@ -13,6 +13,9 @@ import slider_4 from "./../utils/img/slider_4.jpg"
 import slider_5 from "./../utils/img/slider_5.jpg"
 import slider_6 from "./../utils/img/slider_6.jpg"
 import ParentComponent from "../components/ParentComponent";
+import MultipleItemsSlider from "../components/MultipleItemsSlider";
+import Main from "../components/Main";
+import ShadowImageSection from "../components/ShadowImageSection";
 
 const Anasayfa = () => {
   const [index, setIndex] = useState(0);
@@ -82,8 +85,10 @@ const Anasayfa = () => {
       </Carousel>
       <ParentComponent />
       <Hakimizda />
-      <Markalar />
-      <Galeri />
+      <Main />
+      <MultipleItemsSlider />
+      <ShadowImageSection />
+  
     </div>
   );
 };

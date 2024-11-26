@@ -1,0 +1,69 @@
+.swiper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #fff;
+  height: auto;
+  position: relative;
+  background: linear-gradient(145deg, #444, #222);
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.1);
+}
+.swiper-slides {
+  margin: 10px;
+  width: 80%;
+}
+.swiper-slides h3 {
+  margin-bottom: 65px;
+  color: #fff;
+}
+.swiperSlide {
+  aspect-ratio: 7/9;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.swiperSlide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 10px;
+}
+/* responsive design */
+@media (min-width: 1200px) {
+  .slider-image {
+    width: 300px; /* Büyük ekranlar için genişlik */
+    height: 400px; /* Büyük ekranlar için yükseklik */
+  }
+}
+@media (max-width: 576px) {
+  .slider-image {
+    height: 300px; /* Küçük ekranlarda daha küçük bir yükseklik */
+    width: 100%;
+  }
+  .swiper-slides h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .slider-image {
+    height: 400px; /* Orta boyutlu ekranlar için */
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .slider-image {
+    height: 500px; /* Büyük ekranlar için */
+    width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.m-container {
+    padding: 50px 15px;
+    margin-top: 30px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  

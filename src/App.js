@@ -1,20 +1,14 @@
-import "./App.css"
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Anasayfa from "./pages/Anasayfa";
 import Hakkimizda from "./pages/Hakkimizda";
 import Contact from "./pages/Contact";
-import Seramik from "./pages/Seramik";
-import Duvarkagidi from "./pages/Duvarkagidi";
-import Vitrifiye from "./pages/Vitrifiye";
-import Banyomobilyalari from "./pages/Banyomobilyalari";
+
 import Navbar1 from "./components/Navbar1";
 import Footer from "./components/Footer";
-import Duskabini from './pages/Duskabini';
-import Ankastre from './pages/Ankastre';
-import Yapikimyasallari from './pages/Yapikimyasallari';
-import YardimciUrunler from './pages/YardimciUrunler';
-import Referanslar from './pages/Referanslar';
+
+import Referanslar from "./pages/Referanslar";
 
 function App() {
   return (
@@ -25,16 +19,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Anasayfa />} />
           <Route path="/kurumsal" element={<Hakkimizda />} />
-          <Route path="/seramik" element={<Seramik />} />
-          <Route path="/duvarkagidi" element={<Duvarkagidi />} />
-          <Route path="/vitrifiye" element={<Vitrifiye />} />
-          <Route path="/duskabini" element={<Duskabini />} />
-          <Route path="/ankastre" element={<Ankastre />} />
-          <Route path="/banyomobilyalari" element={<Banyomobilyalari />} />
-          <Route path="/yapikimyasallari" element={<Yapikimyasallari />} />
-          <Route path="/yardimciurunler" element={<YardimciUrunler />} />
+
           <Route path="/referanslar" element={<Referanslar />} />
-          <Route path="/contact" element={<Contact /> } />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>
