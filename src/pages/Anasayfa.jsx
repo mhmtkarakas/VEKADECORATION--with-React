@@ -15,7 +15,8 @@ import slider_6 from "./../utils/img/slider_6.jpg"
 import ParentComponent from "../components/ParentComponent";
 import MultipleItemsSlider from "../components/MultipleItemsSlider";
 import Main from "../components/Main";
-import ShadowImageSection from "../components/ShadowImageSection";
+import AnimatedText from "../components/AnimatedText";
+import Bathroom from "../components/Bathroom";
 
 const Anasayfa = () => {
   const [index, setIndex] = useState(0);
@@ -87,7 +88,8 @@ const Anasayfa = () => {
       <Hakimizda />
       <Main />
       <MultipleItemsSlider />
-      <ShadowImageSection />
+     <Bathroom />
+    <AnimatedText />
   
     </div>
   );
@@ -116,6 +118,7 @@ export default Anasayfa;
 // import Hakimizda from "../components/Hakimizda";
 // import Markalar from "../components/Markalar";
 // import Galeri from '../components/Galeri';
+
 
 
 

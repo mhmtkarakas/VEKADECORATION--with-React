@@ -1,0 +1,95 @@
+/* Ana Container */
+.about-us-container {
+  max-width: 1400px;
+  margin: 120px auto 50px auto;
+  padding: 20px;
+  background: linear-gradient(145deg, #444, #222);
+  color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Başlık */
+.about-us-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:  #ffcc00;
+}
+
+/* Giriş Metni */
+.about-us-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+/* İçerik Alanı */
+.about-us-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+/* Resimler */
+.about-image {
+  flex: 1;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Metin Alanı */
+.about-text {
+  flex: 2;
+  padding: 10px;
+}
+
+.about-text h2 {
+  font-size: 1.8rem;
+  color:  #ffcc00;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Kapanış Metni */
+.about-us-closing {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+/* Responsive Ayarlar */
+@media (max-width: 768px) {
+  .about-us-container{
+    margin-top:50px ;
+    margin-bottom: 25px;
+  }
+  .about-us-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    padding: 0;
+  }
+
+  .about-us-intro,
+  .about-us-closing {
+    font-size: 1rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.5rem;
+  }
+}

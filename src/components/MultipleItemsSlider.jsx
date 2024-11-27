@@ -24,6 +24,7 @@ import mslider_12 from "../utils/img/mslider_12.png";
 import mslider_13 from "../utils/img/mslider_13.png";
 import mslider_14 from "../utils/img/mslider_14.png";
 import mslider_15 from "../utils/img/mslider_15.png";
+import mslider_16 from "../utils/img/mslider_16.png";
 
 import "./MultipleItemsSlider.css";
 
@@ -164,6 +165,15 @@ const MultipleItemsSlider = () => {
               <img
                 src={mslider_9}
                 alt="YashamDuvarKagidi"
+                className="slider-image"
+              />
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide  className="swiperSlide">
+            <Link to={"https://franke.com/"} target="_blank">
+              <img
+                src={mslider_16}
+                alt="Frake Ankastre"
                 className="slider-image"
               />
             </Link>

@@ -1,0 +1,52 @@
+.animated-text {
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+    background-color: #f7f7f7;
+    color: #333; 
+    height: 30vh; 
+    align-items: center; 
+    letter-spacing: 0.3em;
+  }
+  
+  .animated-char {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  
+  
+  .animated-char.visible {
+    opacity: 1;
+    transform: translateY(0);
+    color: #333; /* Harflerin görünürken alacağı rengi ayarla */
+  }
+  @media (min-width: 992px) and (max-width: 1220px){
+    .animated-text {
+      font-size: 3rem;
+      letter-spacing: 0.3em; /* Harf aralığını küçültme */
+    }
+  }
+  @media (min-width: 768px) and (max-width: 992px){
+    .animated-text {
+        font-size: 2.5rem;
+        letter-spacing: 0.3em; /* Harf aralığını küçültme */
+      }
+  }
+  @media (max-width: 768px) {
+    .animated-text {
+      font-size: 2.2rem;
+      letter-spacing: 0.2em; /* Harf aralığını küçültme */
+    }
+  }
+  
+  /* Mobil ekranlar için daha küçük yazı boyutu ve aralığı */
+  @media (max-width: 576px) {
+    .animated-text {
+      height: 20vh; 
+      font-size: 1.5rem;
+      letter-spacing: 0.15em; /* Harf aralığını daha da küçültme */
+    }
+  }
+  

@@ -1,18 +1,140 @@
-
-
-.location:hover {
-  color: #ffc107;
-  transition: 0.6s;
+/* Footer Genel Ayarları */
+.footer {
+  background: linear-gradient(145deg, #444, #222);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
 }
 
-.faydalilinkler:hover {
-  color: #ffc107 !important;
-  transition: 0.6s;
+/* Footer İçerik Konteyneri */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Logo Alanı */
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.footer-logo h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.footer-logo img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: #222;
+}
 
-@media only screen and (max-width: 768px) {
-  footer {
+/* Sosyal Medya Alanı */
+.footer-social-media h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffd700;
+}
+
+.social-icons a svg {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+/* İletişim Bilgileri */
+.footer-contact h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+/* Alt Alan */
+.footer-bottom {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #555;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
     text-align: center;
+    gap: 30px;
+  }
+
+  .footer-logo h2 {
+    font-size: 22px;
+  }
+
+  .footer-social-media h3,
+  .footer-contact h3 {
+    font-size: 18px;
+  }
+
+  .social-icons a {
+    font-size: 16px;
+  }
+
+  .social-icons a svg {
+    font-size: 20px;
+  }
+
+  .footer-contact p {
+    font-size: 15px;
+  }
+}
+
+/* Mobil Ekranlar (Maksimum Genişlik: 480px) */
+@media (max-width: 480px) {
+  .footer-logo h2 {
+    font-size: 20px;
+  }
+
+  .footer-social-media h3,
+  .footer-contact h3 {
+    font-size: 16px;
+  }
+
+  .footer-contact p {
+    font-size: 14px;
+  }
+
+  .social-icons a {
+    font-size: 14px;
+  }
+
+  .social-icons a svg {
+    font-size: 18px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
   }
 }
