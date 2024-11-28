@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navbar1 = () => {
   return (
     <div className="main-container">
-      <Navbar expand="lg" className="fixed-top navbar-light bg-light">
+      <Navbar expand="lg" className="fixed-top ">
         <Container fluid className="navClass">
           {/* Logo - Solda */}
           <Navbar.Brand>

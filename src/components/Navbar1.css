@@ -6,14 +6,15 @@
 .fixed-top {
   width: 100%;
   max-width: 100%;
-  height: 100px; /* Navbar yüksekliği */
-  background-color: #fff; /* Arka plan rengi */
+  height: 100px; 
+  background: linear-gradient(145deg, #444, #222);
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   overflow-x: hidden;
   margin: 0;
-  flex-grow: 1; /* Sol tarafta yer kaplaması için */
+  flex-grow: 1; 
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
@@ -21,15 +22,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem; /* Toggle düğmesi boyutu */
-  background: none; /* Varsayılan arka planı kaldır */
-  border: none; /* Varsayılan çerçeveyi kaldır */
+  font-size: 1.5rem; 
+  background: none; 
+  border: none; 
   cursor: pointer;
 }
 
 /* Navbar genişliği ve konumlandırması */
 .navClass {
-  padding: 0 15px; /* Sağ ve soldan boşluk */
+  padding: 0 15px; 
   width: 96%;
   box-sizing: border-box;
 }
@@ -42,6 +43,7 @@
 .navbar-brand {
   font-family: "Merriweather", serif;
   padding: 10px;
+  color: #fff !important;
   font-size: 2rem !important;
   font-weight: 600;
   letter-spacing: 1px;
@@ -62,15 +64,29 @@
 /* Span etiketi içindeki metin */
 
 .nav-links span {
-  font-family: "Merriweather", serif;
   padding: 0 5px;
+  color: #fff;
   cursor: pointer;
+  position: relative;
   transition: color 0.5s ease, text-shadow 0.5s ease;
 }
 
 .nav-links span:hover {
-  color: #333; 
+ color: #fff;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); 
+}
+.nav-links span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px; 
+  width: 0; 
+  height: 2px; 
+  background-color: #fff;
+  transition: width 0.5s ease; 
+}
+.nav-links span:hover::after {
+  width: 100%; 
 }
 
 @media (max-width: 768px) {
