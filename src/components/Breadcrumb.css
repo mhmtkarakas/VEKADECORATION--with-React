@@ -1,0 +1,23 @@
+.breadcrumb-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+
+  .scroll-to-top {
+    position: relative;
+    background-color: #ffcc33;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1001;
+  }
+  

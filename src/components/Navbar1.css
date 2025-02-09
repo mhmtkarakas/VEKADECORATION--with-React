@@ -107,8 +107,13 @@
     align-items: flex-start;
   }
   .navbar-toggler {
-    margin-right: 35px;
+    margin-left:auto;
     text-align: right;
+    border-color: #fff !important;
+  }
+  .navbar-toggler-icon {
+    background-color: white; /* Arka plan rengini beyaz yapar */
+    border-radius: 3px; /* Kenarlarını hafif yuvarlak yapar */
   }
   .nav-link {
     width: 100%;

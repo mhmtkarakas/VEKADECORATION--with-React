@@ -13,6 +13,7 @@ import image9 from "../utils/img/narsistlatte.jpeg";
 import image10 from "../utils/img/rainforest.jpeg";
 import image11 from "../utils/img/pulpisprimeagri.jpeg";
 import image12 from "../utils/img/valerya.jpeg";
+// import avatar from "../utils/img/avatar.webp";
 
 const CeramicAnimation = () => {
   // Örnek resimler

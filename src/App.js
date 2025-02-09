@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Anasayfa from "./pages/Anasayfa";
 import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
+import Breadcrumb from "./components/Breadcrumb";
 
 import Navbar1 from "./components/Navbar1";
 import Footer from "./components/Footer";
@@ -15,8 +16,9 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+        <Breadcrumb />
         <Navbar1 />
-
+        
         <Routes>
           <Route path="/" element={<Anasayfa />} />
           <Route path="/kurumsal" element={<AboutUs />} />
