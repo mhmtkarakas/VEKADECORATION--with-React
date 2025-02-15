@@ -1,4 +1,6 @@
-
+.home-page{
+  overflow: hidden;
+}
 .carousel-item {
   margin-top: 30px;
 width: 100%;

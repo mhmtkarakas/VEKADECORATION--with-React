@@ -1,5 +1,4 @@
-/* Partners.css */
-
+/* Ana container */
 .partners-container {
   max-width: 1400px;
   background: linear-gradient(145deg, #444, #222);
@@ -122,7 +121,7 @@
   }
 
   .image-item {
-    max-width: 200px;
+    max-width: 75%;
     aspect-ratio: 3 / 4;
   }
 }
@@ -136,37 +135,13 @@
     gap: 15px;
   }
 
+  /* Mobil cihazlarda resimlerin boyutunu artırın */
   .image-item {
-    max-width: 150px;
+    max-width: 100%; /* Ekran genişliğinin %45'ini kaplasın */
     aspect-ratio: 3 / 4;
   }
 
   .image-item p {
     font-size: 0.9rem;
-  }
-}
-
-/* Navbar Toggle Düğmesi için Ekstra Ayarlamalar */
-
-@media (max-width: 768px) {
-  .navbar {
-    padding: 10px;
-  }
-
-  .navbar-toggle {
-    display: block;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-  }
-
-  .navbar-menu {
-    display: none;
-    width: 100%;
-    text-align: center;
-  }
-
-  .navbar-menu.active {
-    display: block;
   }
 }
